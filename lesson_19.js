@@ -93,7 +93,8 @@ const todo = ( state, action ) => {
   const Todo = ({
     onClick, // Don't have to do this, but it's convenient
     completed,
-    text
+    text,
+    id
   }) => (
     <li
       onClick={onClick}
@@ -103,7 +104,7 @@ const todo = ( state, action ) => {
                'line-through' :
                'none'
       }}>
-      {id}: {text}
+    {id}: {text}
     </li>
   );
   
