@@ -1,0 +1,27 @@
+{
+  "name": "egghead-redux",
+  "version": "1.0.0",
+  "description": "Working the Dan Abramov tutorial on Redux",
+  "main": "lesson_19.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/egghead-redux.git"
+  },
+  "keywords": [
+    "React",
+    "Redux"
+  ],
+  "author": "Dave Kanter",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/raydot/egghead-redux/issues"
+  },
+  "homepage": "https://github.com/raydot/egghead-redux#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.19.1"
+  }
+}
