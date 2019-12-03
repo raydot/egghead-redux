@@ -96,7 +96,7 @@ const todo = ( state, action ) => {
     text
   }) => (
     <li
-      onClick ={onClick}
+      onClick={onClick}
       style={{
          textDecoration:
              completed ?
@@ -117,7 +117,8 @@ const todo = ( state, action ) => {
        <Todo
          key={todo.id}
          {...todo}
-    onClick={() => onTodoClick(todo.id)}
+        onClick={() => onTodoClick(todo.id)}
+        />
      )}
   </ul>
   );
